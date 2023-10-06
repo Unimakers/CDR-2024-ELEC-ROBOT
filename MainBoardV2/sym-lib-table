@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Teensy")(type "Legacy")(uri "${KIPRJMOD}/Libraries/teensy_library-master/teensy.lib")(options "")(descr ""))
+)
