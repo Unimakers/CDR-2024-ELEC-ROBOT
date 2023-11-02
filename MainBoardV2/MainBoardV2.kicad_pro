@@ -472,7 +472,7 @@
       "netlist": "",
       "specctra_dsn": "",
       "step": "MainBoardV2.step",
-      "vrml": ""
+      "vrml": "MainBoardV2.wrl"
     },
     "page_layout_descr_file": ""
   },
