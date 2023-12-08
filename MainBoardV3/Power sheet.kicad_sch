@@ -1101,32 +1101,6 @@
     )
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x02") (at 146.685 136.525 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 476ae1c8-aecc-4166-b92a-aeae1f33ae24)
-    (property "Reference" "J6" (at 149.225 136.525 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Conn_01x02" (at 149.225 139.065 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical" (at 146.685 136.525 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 146.685 136.525 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 14a21b43-5320-4b55-bf26-b4bd68772947))
-    (pin "2" (uuid 70652ad6-bd0d-4583-a597-1f721804be1a))
-    (instances
-      (project "MainboardV3"
-        (path "/ccdda621-e361-4147-9a57-71374655ba08/cc39ea4c-864b-49b2-93dc-48ce7f75ef7f"
-          (reference "J6") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:LED_Small") (at 62.23 77.47 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4b7d625e-009b-49d4-81d3-41d9507fa3f8)
@@ -1994,6 +1968,32 @@
       (project "MainboardV3"
         (path "/ccdda621-e361-4147-9a57-71374655ba08/cc39ea4c-864b-49b2-93dc-48ce7f75ef7f"
           (reference "C3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector_Generic:Conn_01x02") (at 146.685 139.065 0) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid e6fd72b5-0b6b-49af-b001-a9ec5e577024)
+    (property "Reference" "J6" (at 149.225 139.065 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Conn_01x02" (at 149.225 136.525 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical" (at 146.685 139.065 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 146.685 139.065 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 02b6d1ec-08a7-4ed3-909a-a35b01bbdeb3))
+    (pin "2" (uuid 8531b2e9-823d-4695-b337-ad32f3751084))
+    (instances
+      (project "MainboardV3"
+        (path "/ccdda621-e361-4147-9a57-71374655ba08/cc39ea4c-864b-49b2-93dc-48ce7f75ef7f"
+          (reference "J6") (unit 1)
         )
       )
     )
