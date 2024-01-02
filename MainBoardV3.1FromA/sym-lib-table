@@ -1,6 +1,6 @@
 (sym_lib_table
   (version 7)
   (lib (name "Teensy")(type "Legacy")(uri "${KIPRJMOD}/Libraries/teensy_library-master/teensy.lib")(options "")(descr ""))
-  (lib (name "Traco")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Traco/Traco.kicad_sym")(options "")(descr ""))
-  (lib (name "PCM")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Custom/Symbols/PCM.kicad_sym")(options "")(descr ""))
+  (lib (name "Traco")(type "KiCad")(uri "/home/loafoftech/Documents/CDR2024/ELEC/CDR-2024-ELEC-ROBOT/Libraries/Traco/Traco.kicad_sym")(options "")(descr ""))
+  (lib (name "PCM")(type "KiCad")(uri "/home/loafoftech/Documents/CDR2024/ELEC/CDR-2024-ELEC-ROBOT/Libraries/Custom/Symbols/PCM.kicad_sym")(options "")(descr ""))
 )

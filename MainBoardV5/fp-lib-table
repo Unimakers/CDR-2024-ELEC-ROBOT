@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ESP32")(type "KiCad")(uri "/home/loafoftech/Documents/CDR2024/ELEC/CDR-2024-ELEC-ROBOT/Libraries/ESP32/kicad-libraries-main/footprints/Espressif.pretty")(options "")(descr ""))
+  (lib (name "ESP32Model")(type "KiCad")(uri "/home/loafoftech/Documents/CDR2024/ELEC/CDR-2024-ELEC-ROBOT/Libraries/ESP32/kicad-libraries-main/3dmodels/espressif.3dshapes")(options "")(descr ""))
+  (lib (name "Traco")(type "KiCad")(uri "/home/loafoftech/Documents/CDR2024/ELEC/CDR-2024-ELEC-ROBOT/Libraries/Traco/Traco.pretty")(options "")(descr ""))
+  (lib (name "Custom")(type "KiCad")(uri "/home/loafoftech/Documents/CDR2024/ELEC/CDR-2024-ELEC-ROBOT/Libraries/Custom/Custom.pretty")(options "")(descr ""))
+)
